@@ -4,9 +4,9 @@ import pandas as pd
 def carregar_dados():
     cnx = mysql.connector.connect(
         user="glpi-tecnocomp",
-        password="qu&%P>V*d*Rq4dj4G:+>5!",
-        host="hermes-db.mysql.database.azure.com",
-        database="glpi_tecnocomp"
+        password=password,
+        host=hostname,
+        database=database
     )
     cursor = cnx.cursor()
 
